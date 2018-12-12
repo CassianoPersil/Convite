@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5,
 			opacity: 1;
 			width: 200px;
 			height: 200px;
-			background: rgba(255,255,255,.15);
+			background: rgba(191,63,167,.1);
 			@include border-radius(50%);
 		}
 		&:before{
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5,
 			opacity: 1;
 			width: 120px;
 			height: 120px;
-			background: rgba(255,255,255,.1);
+			background: rgba(242,63,209,.1);
 			@include border-radius(50%);
 		}
 	}
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5,
 			opacity: 1;
 			width: 150px;
 			height: 150px;
-			background: rgba(255,255,255,.2);
+			background: rgba(81,155,244,.1);
 			@include border-radius(50%);
 		}
 		&:before{
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5,
 			opacity: 1;
 			width: 100px;
 			height: 100px;
-			background: rgba(255,255,255,.1);
+			background: rgba(53,104,165,.1);
 			@include border-radius(50%);
 		}
 	}
