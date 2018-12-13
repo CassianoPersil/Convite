@@ -33,8 +33,22 @@
                 width: 100%;  /* The width is the width of the web page */
             }
         </style>
+        <style>
+            .parallax { 
+                /* The image used */
+                background-image: url("images/Fundo/Nuvens 1.png");
 
-    </head>
+                /* Set a specific height */
+                height: 500px; 
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+
     <body>
         <!--  
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -90,6 +104,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <section class="ftco-section bg-light">
             <div class="container">
                 <div class="row justify-content-center mb-5 mt-5">
@@ -152,95 +167,8 @@
                 </div>
             </div>
         </section>
+        -->
 
-        <section class="ftco-section bg-light">
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-5">
-                    <div class="col-md-7 text-center heading-section ftco-animate">
-                        <span class="subheading">Pricing Plans</span>
-                        <h2 class="mb-4">Our Best Pricing</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                        <div class="block-7">
-                            <div class="text-center">
-                                <h2 class="heading">Free</h2>
-                                <span class="price"><sup>$</sup> <span class="number">0</span></span>
-                                <span class="excerpt d-block">100% free. Forever</span>
-                                <a href="#" class="btn btn-primary d-block px-3 py-3 mb-4">Get Started</a>
-
-                                <h3 class="heading-2 mb-3">Enjoy All The Features</h3>
-
-                                <ul class="pricing-text">
-                                    <li><strong>150 GB</strong> Bandwidth</li>
-                                    <li><strong>100 GB</strong> Storage</li>
-                                    <li><strong>$1.00 / GB</strong> Overages</li>
-                                    <li>All features</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <div class="block-7">
-                            <div class="text-center">
-                                <h2 class="heading">Startup</h2>
-                                <span class="price"><sup>$</sup> <span class="number">19</span></span>
-                                <span class="excerpt d-block">All features are included</span>
-                                <a href="#" class="btn btn-primary d-block px-3 py-3 mb-4">Get Started</a>
-
-                                <h3 class="heading-2 mb-3">Enjoy All The Features</h3>
-
-                                <ul class="pricing-text">
-                                    <li><strong>450 GB</strong> Bandwidth</li>
-                                    <li><strong>400 GB</strong> Storage</li>
-                                    <li><strong>$2.00 / GB</strong> Overages</li>
-                                    <li>All features</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <div class="block-7">
-                            <div class="text-center">
-                                <h2 class="heading">Premium</h2>
-                                <span class="price"><sup>$</sup> <span class="number">49</span></span>
-                                <span class="excerpt d-block">All features are included</span>
-                                <a href="#" class="btn btn-primary d-block px-3 py-3 mb-4">Get Started</a>
-
-                                <h3 class="heading-2 mb-3">Enjoy All The Features</h3>
-
-                                <ul class="pricing-text">
-                                    <li><strong>250 GB</strong> Bandwidth</li>
-                                    <li><strong>200 GB</strong> Storage</li>
-                                    <li><strong>$5.00 / GB</strong> Overages</li>
-                                    <li>All features</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <div class="block-7">
-                            <div class="text-center">
-                                <h2 class="heading">Pro</h2>
-                                <span class="price"><sup>$</sup> <span class="number">99</span></span>
-                                <span class="excerpt d-block">All features are included</span>
-                                <a href="#" class="btn btn-primary d-block px-3 py-3 mb-4">Get Started</a>
-
-                                <h3 class="heading-2 mb-3">Enjoy All The Features</h3>
-
-                                <ul class="pricing-text">
-                                    <li><strong>450 GB</strong> Bandwidth</li>
-                                    <li><strong>400 GB</strong> Storage</li>
-                                    <li><strong>$20.00 / GB</strong> Overages</li>
-                                    <li>All features</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
             <div class="container">
@@ -295,8 +223,8 @@
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-5">
                     <div class="col-md-7 text-center heading-section ftco-animate">
-                        <span class="subheading">Customer Says</span>
-                        <h2 class="mb-4">Our satisfied customer says</h2>
+                        <span class="subheading">Quem são?</span>
+                        <h2 class="mb-4">Os responsaveis pela Educação da criança!</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
                     </div>
                 </div>
@@ -305,71 +233,85 @@
                         <div class="carousel-testimony owl-carousel ftco-owl">
                             <div class="item">
                                 <div class="testimony-wrap p-4 pb-5">
-                                    <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Cassiano.jpg)">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
                                     </div>
                                     <div class="text">
-                                        <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p class="name">Dennis Green</p>
-                                        <span class="position">Marketing Manager</span>
+                                        <p class="mb-5">Programador que espera relizar e atender a todas as espectativas de seu bebe!!!</p>
+                                        <p class="name">Cassiano Silva</p>
+                                        <span class="position">Papai</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimony-wrap p-4 pb-5">
-                                    <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Gabriela.jpg)">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
                                     </div>
                                     <div class="text">
-                                        <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p class="name">Dennis Green</p>
-                                        <span class="position">Interface Designer</span>
+                                        <p class="mb-5">Espectativas? As melhores possiveis!!!</p>
+                                        <p class="name">Gabriela Nascimento</p>
+                                        <span class="position">Madrinha de Batismo</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimony-wrap p-4 pb-5">
-                                    <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Igor.jpg)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-5">Melhor dizendo Dr. Cicero Igor!!!.</p>
+                                        <p class="name">Cicero Igor</p>
+                                        <span class="position">Padrinho de Batismo</span>
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Esthephani.jpg)">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
                                     </div>
                                     <div class="text">
                                         <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p class="name">Dennis Green</p>
-                                        <span class="position">UI Designer</span>
+                                        <p class="name">Estephani Vitorino</p>
+                                        <span class="position">Madrinha de Consagração</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimony-wrap p-4 pb-5">
-                                    <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Hiago.jpg)">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
                                     </div>
                                     <div class="text">
                                         <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p class="name">Dennis Green</p>
-                                        <span class="position">Web Developer</span>
+                                        <p class="name">Hiago Mendes</p>
+                                        <span class="position">Padrinho de Consagração</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimony-wrap p-4 pb-5">
-                                    <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                                    <div class="user-img mb-5" style="background-image: url(images/Pessoas/Beatriz.jpg)">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
                                     </div>
                                     <div class="text">
                                         <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                        <p class="name">Dennis Green</p>
-                                        <span class="position">System Analytics</span>
+                                        <p class="name">Beatriz Vitorino</p>
+                                        <span class="position">Mamãe</span>
                                     </div>
                                 </div>
                             </div>
@@ -444,7 +386,7 @@
                 </div>
             </div>
         </section>
-
+        <!--
         <section class="ftco-section-parallax">
             <div class="parallax-img d-flex align-items-center">
                 <div class="container">
@@ -452,7 +394,7 @@
                         <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
                             <h2>Subcribe to our Newsletter</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-                            <div class="row d-flex justify-content-center mt-5">
+                            <div class="row d-flex justify-content-center mt-5">F
                                 <div class="col-md-6">
                                     <form action="#" class="subscribe-form">
                                         <div class="form-group">
@@ -467,31 +409,24 @@
                 </div>
             </div>
         </section>
+        -->
+        <div class="parallax">
+            <center>
+                <img src="images/Fundo/Nuvens 4.png" width="1000" height="400">
+            </center>
+        </div>
 
         <section class="ftco-section bg-light">
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-5">
                     <div class="col-md-7 text-center heading-section ftco-animate">
-                        <span class="subheading">Blog</span>
-                        <h2>Recent Blog</h2>
+                        <span class="subheading"></span>
+                        <h2>Façam suas apostas</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 ftco-animate">
-                        <div class="blog-entry">
-                            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-                            </a>
-                            <div class="text p-4 d-block">
-                                <div class="meta mb-3">
-                                    <div><a href="#">August 12, 2018</a></div>
-                                    <div><a href="#">Admin</a></div>
-                                    <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                                </div>
-                                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                            </div>
-                        </div>
-                    </div>
+                <div class="oque">
+                  
                     <div class="col-md-4 ftco-animate">
                         <div class="blog-entry" data-aos-delay="100">
                             <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
@@ -599,7 +534,7 @@
                         <!--The div element for the map -->
                         <div id="map"></div>
                         <script>
-                            
+
                             function initMap() {
                                 // The location of Uluru
                                 var uluru = {lat: -25.344, lng: 131.036};
@@ -653,7 +588,7 @@
 
 
         <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F5F843"/></svg></div>
 
 
         <script src="js/jquery.min.js"></script>
